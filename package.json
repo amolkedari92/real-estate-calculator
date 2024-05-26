@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "next build && next export",
+    "dev2": "next dev",
     "start": "next start"
   },
   "dependencies": {
